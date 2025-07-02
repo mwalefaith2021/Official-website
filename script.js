@@ -77,4 +77,4 @@ document.addEventListener('DOMContentLoaded', () => {
     // Optional: Auto-play the slideshow
     // You can uncomment the line below if you want it to auto-advance
     // setInterval(() => plusSlides(1), 5000); // Change image every 5 seconds
-});
+
