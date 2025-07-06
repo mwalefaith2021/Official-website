@@ -35,7 +35,7 @@
     --hero-background-day: var(--purple-100);      /* Very light purple for hero section */
     --card-background-day: var(--gray-100);        /* Lighter gray for project cards */
     --border-color-day: var(--gray-300);           /* Medium light gray for borders */
-    --link-color-day: var(--purple-600);           /* Medium dark purple for links */
+    --link-color-day: var(--gray-50);           /* Medium dark purple for links */
     --link-hover-color-day: var(--purple-800);     /* Darker purple for link hover */
 
     /* RGB values for transparent backgrounds in hovers/overlays */
@@ -54,8 +54,8 @@ body.dark-mode {
     --hero-background-day: var(--purple-800);      /* Darker purple for hero section */
     --card-background-day: var(--gray-800);        /* Darker gray for project cards */
     --border-color-day: var(--gray-700);           /* Dark gray for borders */
-    --link-color-day: var(--purple-400);           /* Medium purple for links */
-    --link-hover-color-day: var(--purple-200);     /* Light purple for link hover */
+    --link-color-day: var(--gray-50);           /* Medium purple for links */
+    --link-hover-color-day: var(--gray-200);     /* Light purple for link hover */
 
     /* RGB values for transparent backgrounds in hovers/overlays */
     --background-color-day-rgb: 33, 33, 33;       /* RGB for --gray-900 */
@@ -65,7 +65,7 @@ body.dark-mode {
 
 /* Base Body Styles with Fixed Background Image */
 body {
-    font-family:cursive ; /* Modern, readable font stack */
+    font-family: monospace; /* Modern, readable font stack */
     margin: 0;
     padding: 0;
     line-height: 1.6; /* Improved readability */
@@ -406,7 +406,7 @@ body.dark-mode {
 /* Media queries for responsiveness */
 @media (max-width: 768px) {
     .slideshow-container {
-        width: 100%;
+        width: 80%;
         max-width: unset; /* Remove max-width on small screens */
     }
     .mySlides img {
