@@ -35,8 +35,8 @@
     --hero-background-day: var(--purple-100);      /* Very light purple for hero section */
     --card-background-day: var(--gray-100);        /* Lighter gray for project cards */
     --border-color-day: var(--gray-300);           /* Medium light gray for borders */
-    --link-color-day: var(--gray-50);           /* Medium dark purple for links */
-    --link-hover-color-day: var(--purple-800);     /* Darker purple for link hover */
+    --link-color-day: var(--gray-800);           /* Medium dark purple for links */
+    --link-hover-color-day: var(--purple-900);     /* Darker purple for link hover */
 
     /* RGB values for transparent backgrounds in hovers/overlays */
     --background-color-day-rgb: 250, 250, 250; /* RGB for --gray-50 */
@@ -296,7 +296,6 @@ section {
     border-radius: 8px;
     border: 1px solid var(--border-color-day);
 }
-
 /* In style.css, add these new rules, perhaps after your .project-item styles or at the end */
 
 /* Slideshow Container */
